@@ -1,0 +1,181 @@
+.m-0{
+	font-size: 1.6rem;
+}
+
+.breadcrumb-item a:hover{
+	text-decoration: none;
+}
+
+.content-header{
+	background-color: #e9ecef;
+	padding-top: 1%;
+	margin-bottom: 1.5%;
+}
+
+.cart-count{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.small-box{
+	border-radius: 5px 5px !important;
+}
+
+.row{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.inner{
+	color: #fff;
+	padding: 10px;
+}
+
+.inner h3{
+	font-weight: 700;
+}
+
+.small-box .small-box-footer {
+    background-color: rgba(0,0,0,.1);
+    color: rgba(255,255,255,.8);
+    display: block;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.small-box .icon>i {
+    font-size: 70px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: -webkit-transform .3s linear;
+    transition: transform .3s linear;
+    transition: transform .3s linear,-webkit-transform .3s linear;
+    color: #fff;
+}
+
+.columns-left{
+	width: 42%;
+	float: left;
+	border: 1px solid;
+	border-color: #e9ecef;
+	padding-bottom: 14px;
+	padding-top: 10px;
+	margin-left: 17px;
+	border-radius: 5px 5px;
+}
+.columns-right{
+	width: 53.5%;
+	float: right;
+	border: 1px solid;
+	border-color: #e9ecef;
+	padding-bottom: 21.5px;
+	margin-right: 17px;
+	border-radius: 5px 5px;
+}
+
+#myCategoryStatsChart {
+	width: 70% !important;
+	height: 70% !important;
+	margin: 0 auto;
+}
+
+#myProductMonthStatsChart {
+	width: 100% !important;
+	height: 100% !important;
+	margin: 0 auto;
+	margin-top: 6%;
+	padding-right: 10px;
+}
+
+.icon{
+	opacity: 0.5;
+}
+
+.category-stats{
+	margin-top: 2%;
+}
+
+.modal-title1 {
+	align-items: center;
+	color: #131313;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 1.1rem;
+}
+
+.s {
+	margin-bottom: -15px;
+}
+
+.btnp {
+	background: #fff;
+	border: none;
+	color: #131313;
+}
+
+.btnp:hover {
+	background: #fff;
+	border: none;
+	color: #66716B;
+}
+
+.btn-secondary1 {
+	margin-bottom: 0px;
+	width: 498px;
+	margin-left: -16px;
+}
+
+.btn-primary1 {
+	margin-top: -17px;
+	margin-bottom: 18px;
+	font-weight: 600;
+}
+
+.modal-body {
+	cursor: pointer;
+}
+
+#r {
+	background: #fff !important;
+}
+
+body::-webkit-scrollbar {
+	width: 8px; /* Chiều rộng vùng chứa scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+	background: #fff; /* Màu nền ngoài của thanh scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #131313; /* Màu của thanh cuộn (scroll thumb) */
+	border-radius: 10px; /* Bo góc scroll thumb */
+	border: 1px solid #ccc;
+	/* Không hỗ trợ padding, margin, transition nên dùng viền cùng màu nên để padding scroll thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background-color: #3E4240; /*Hiệu ứng di chuột đổi màu*/
+}
+
+
+#goTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #4a90e2;
+	color: #fff;
+	padding-right: 2px;
+	padding-left: 12px;
+	cursor: pointer;
+}

@@ -1,0 +1,310 @@
+#userImages {
+	margin-top: 3% !important;
+}
+
+.fa.fa-power-off{
+	margin-left: -47px !important;
+	margin-top: -1px !important; 
+}
+
+[data-icon-label] {
+	position: relative;
+	display: inline-block;
+}
+
+[data-icon-label]:after {
+	content: attr(data-icon-label);
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	background-color: rgb(255, 0, 0);
+	font-size: 11px;
+	padding: 2px;
+	opacity: 1;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	z-index: 1;
+	transition: transform .2s;
+	margin-right: -11px;
+	margin-top: -10px;
+}
+
+[data-icon-label="0"]:after {
+	display: none;
+}
+
+.modal-title1 {
+	align-items: center;
+	color: #131313;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 1.1rem;
+}
+
+.s {
+	margin-bottom: -15px;
+}
+
+.btnp {
+	background: #fff;
+	border: none;
+	color: #131313;
+}
+
+.btnp:hover {
+	background: #fff;
+	border: none;
+	color: #66716B;
+}
+
+.btn-secondary1 {
+	margin-bottom: 0px;
+	width: 498px;
+	margin-left: -16px;
+}
+
+.btn-primary1 {
+	margin-top: -17px;
+	margin-bottom: 18px;
+	font-weight: 600;
+}
+
+.modal-body {
+	cursor: pointer;
+}
+
+#r {
+	background: #fff !important;
+}
+
+#goTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #4a90e2;
+	color: #fff;
+	padding-bottom: 5px;
+	padding-left: 11.5px;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
+
+.del {
+	margin-top: 5%;
+}
+
+.dele {
+	color: #999999;
+}
+
+.dele:hover {
+	text-decoration: none;
+	color: #999999;
+}
+
+.col-sm-8 {
+	
+}
+
+.right {
+	text-align: right;
+}
+
+.column {
+	float: left;
+	padding: 5px;
+}
+
+/* Cột bên trái và phải */
+.column.side {
+	width: 20%;
+}
+
+/* Cột chính giữa */
+.column.middle {
+	width: 60%;
+}
+
+/* Clear float khác sau các cột */
+.layout:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.cart-add{
+	margin-top: 20%;
+}
+
+.buttons_added {
+	opacity: 1;
+	display: inline-block;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+.is-form {
+	overflow: hidden;
+	position: relative;
+	/*background-color:#f9f9f9;*/
+	height: 2.2rem;
+	width: 1.9rem;
+	padding: 0;
+	text-shadow: 1px 1px 1px #fff;
+	border: 1px solid #ddd;
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+.is-form:focus, .input-text:focus {
+	outline: none;
+}
+
+.is-form.minus {
+	border-radius: 4px 0 0 4px;
+	padding-left: 0;
+}
+
+.is-form.plus {
+	border-radius: 0 4px 4px 0;
+}
+
+.input-qty {
+	background-color: #fff;
+	height: 2.2rem;
+	width: 30px;
+	text-align: center;
+	font-size: 1rem;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-left: 0;
+	border-right: 0;
+	padding: 0;
+}
+
+.input-qty::-webkit-outer-spin-button, .input-qty::-webkit-inner-spin-button
+	{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.proname {
+	color: #333333;
+	font-weight: bold;
+}
+
+.proname:hover {
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.price {
+	color: #F30C28;
+	margin-bottom: 0px;
+}
+
+.pricesaleoff {
+	color: #666666;
+}
+
+.right span{
+	margin-left: 2px;
+}
+
+.bi-plus, .bi-dash {
+	color: #1452E2;
+	cursor: pointer;
+}
+
+.totalprice {
+	text-align: right;
+}
+
+.totalprice span{
+	margin-left: 2px;
+}
+
+.totl {
+	margin-top: -2%;
+	color: #333333;
+}
+
+.listpro {
+	margin-bottom: 4%;
+}
+
+.bi-x-circle-fill {
+	font-size: 0.8rem;
+}
+
+.yourcard {
+	margin-bottom: 2%;
+	color: #333333;
+}
+
+.btn-md {
+	margin-right: 0.5%;
+}
+
+.alert {
+	text-align: center;
+	padding-top: 4%;
+}
+
+.bi-cart-x {
+	font-size: 5rem;
+	color: #7e7a7a;
+}
+
+.cart-alert.success{
+	color: green;
+}
+
+.bi-cart-check {
+	font-size: 5rem;
+	color: green;
+}
+
+.cart-alert {
+	font-size: 1.1rem;
+	color: #7c7878;
+}
+
+.ms {
+	width: 40%;
+	margin-top: 2%;
+}
+
+.message-area{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.error-message-invalid{
+	margin-bottom: 0px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

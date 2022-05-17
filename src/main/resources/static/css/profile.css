@@ -1,0 +1,196 @@
+.navbar__links {
+	padding-top: 5px !important;
+}
+
+.navbar__linkss {
+	padding-top: 15px !important;
+}
+
+[data-icon-label] {
+	position: relative;
+	display: inline-block;
+}
+
+[data-icon-label]:after {
+	content: attr(data-icon-label);
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	background-color: rgb(255, 0, 0);
+	font-size: 11px;
+	padding: 2px;
+	opacity: 1;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	z-index: 1;
+	transition: transform .2s;
+	margin-right: -11px;
+	margin-top: -10px;
+}
+
+[data-icon-label="0"]:after {
+	display: none;
+}
+
+#userAdminImage {
+	margin-top: 20% !important;
+}
+
+a#userAdmin.navbar__linkss{
+	padding-top: 4.5% !important;
+}
+
+.fa-power-off{
+	margin-left: -47px !important;
+	padding-top: 15px !important; 
+}
+
+.profile{
+	margin-top: 5%;
+}
+
+.columns-lefts{
+	width: 40%;
+	float: left;
+	padding: 30px;
+}
+.columns-rights{
+	width: 55%;
+	float: right;
+	border: 1px solid;
+	padding: 20px;
+	margin-right: 5%;
+	border-radius: 5px;
+	border-color: #e9ecef;
+}
+
+#userImage img{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+}
+
+body::-webkit-scrollbar {
+	width: 8px; /* Chiều rộng vùng chứa scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+	background: #fff; /* Màu nền ngoài của thanh scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #131313; /* Màu của thanh cuộn (scroll thumb) */
+	border-radius: 10px; /* Bo góc scroll thumb */
+	border: 1px solid #ccc;
+	/* Không hỗ trợ padding, margin, transition nên dùng viền cùng màu nên để padding scroll thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background-color: #3E4240; /*Hiệu ứng di chuột đổi màu*/
+}
+
+#goTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #4a90e2;
+	color: #fff;
+	padding-right: 2px;
+	padding-left: 12px;
+	cursor: pointer;
+}
+
+.modal-title1 {
+	align-items: center;
+	color: #131313;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 1.1rem;
+}
+
+.s {
+	margin-bottom: -15px;
+}
+
+.btnp {
+	background: #fff;
+	border: none;
+	color: #131313;
+}
+
+.btnp:hover {
+	background: #fff;
+	border: none;
+	color: #66716B;
+}
+
+.btn-secondary1 {
+	margin-bottom: 0px;
+	width: 498px;
+	margin-left: -16px;
+}
+
+.btn-primary1 {
+	margin-top: -17px;
+	margin-bottom: 18px;
+	font-weight: 600;
+}
+
+.modal-body {
+	cursor: pointer;
+}
+
+#r {
+	background: #fff !important;
+}
+
+a.pg{
+	margin-left: -465px;
+	margin-right: 280px;
+}
+
+.info{
+	display: flex;
+}
+
+.edit-btn{
+	background: #c9cecf;
+	text-align: center;
+	margin-top: 7%;
+	margin-left: 38%;
+	border-color: #919191;
+}
+
+.edit-btn:hover{
+	background: #c9cecf;
+	border-color: #919191;
+}
+
+#userAdminImage{
+	width: 40px !important;
+	height: 40px !important;
+	border-radius: 50%;
+	margin: 0;
+	margin-right: 10px;
+}
+
+footer {
+	background-color: #efecec;
+}
+
+footer .container {
+	padding-bottom: 15px;
+}
+
+#footer{
+	margin-top: 29.9% !important;
+}

@@ -1,0 +1,154 @@
+#userImages {
+	margin-top: 3% !important;
+}
+
+.fa.fa-power-off{
+	margin-left: -47px !important;
+	margin-top: -1px !important; 
+}
+
+[data-icon-label] {
+	position: relative;
+	display: inline-block;
+}
+
+[data-icon-label]:after {
+	content: attr(data-icon-label);
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	background-color: rgb(255, 0, 0);
+	font-size: 11px;
+	padding: 2px;
+	opacity: 1;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	z-index: 1;
+	transition: transform .2s;
+	margin-right: -11px;
+	margin-top: -10px;
+}
+
+[data-icon-label="0"]:after {
+	display: none;
+}
+
+#divfeetotal, #divPromo, #divfee {
+	height: 50px;
+}
+
+.modal-title1 {
+	align-items: center;
+	color: #131313;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 1.1rem;
+}
+
+.s {
+	margin-bottom: -15px;
+}
+
+.btnp {
+	background: #fff;
+	border: none;
+	color: #131313;
+}
+
+.btnp:hover {
+	background: #fff;
+	border: none;
+	color: #66716B;
+}
+
+.btn-secondary1 {
+	margin-bottom: 0px;
+	width: 498px;
+	margin-left: -16px;
+}
+
+.btn-primary1 {
+	margin-top: -17px;
+	margin-bottom: 18px;
+	font-weight: 600;
+}
+
+.modal-body {
+	cursor: pointer;
+}
+
+#r {
+	background: #fff !important;
+}
+
+#goTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #4a90e2;
+	color: #fff;
+	padding-bottom: 5px;
+	padding-left: 11.5px;
+	cursor: pointer;
+}
+
+.order {
+	text-decoration: none;
+	color: #fff;
+}
+
+.order:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.col-md-12 {
+	padding-top: 7px;
+}
+
+.col-md-6 {
+	padding-top: 7px;
+}
+
+span.cart-total{
+	margin-left: 2px;
+}
+
+.btn-secondary {
+	background: #007BFF !important;
+}
+
+.badge-pill {
+	background: #007BFF !important;
+}
+
+strong {
+	color: red;
+}
+
+.required-mask {
+	color: red;
+	font-weight: bold;
+}
+
+.msg {
+	margin-top: 1%;
+	display: none !important;
+}
+
+.mes {
+	margin-top: -1%;
+}
+
+.form-color {
+	color: #007bff;
+}
